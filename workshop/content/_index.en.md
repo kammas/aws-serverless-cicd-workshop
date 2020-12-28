@@ -1,9 +1,10 @@
 +++
-title = "CI/CD for Serverless Applications"
+title = "Javascript/Node.js Workshop"
 chapter = true
 weight = 1
 +++
-# CI/CD for Serverless Applications
+
+# CI/CD for NodeJS Serverless Applications
 
 In this workshop, you will learn how to start a new Serverless application from scratch using the AWS Serverless Application Model (AWS SAM) and how to fully automate builds and deployments by building a continous delivery pipeline using the AWS CDK. You will also learn how to run a Serverless application locally using the SAM CLI.
 

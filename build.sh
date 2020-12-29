@@ -24,11 +24,14 @@ build_hugo() {
 }
 
 language=$1
-if [ "$language" != "" ]; then
+if [ "$language" = "javascript" ]; then
+    echo "Building javascript workshop"
     build_javascript_workshop
 elif [ "$language" = "java" ]; then
+    echo "Building java workshop"
     build_java_workshop
 else
     # Default to javascript
+    echo "Building javascript workshop"
     build_javascript_workshop
 fi

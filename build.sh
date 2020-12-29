@@ -26,7 +26,7 @@ build_hugo() {
 language=$1
 if [ "$language" != "" ]; then
     build_javascript_workshop
-else if [ "$language" = "java" ]; then
+elif [ "$language" = "java" ]; then
     build_java_workshop
 else
     # Default to javascript

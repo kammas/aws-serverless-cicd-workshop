@@ -4,7 +4,7 @@ frontend:
     build:
       commands:
         - git clone --branch 2.4.0 https://github.com/matcornic/hugo-theme-learn.git workshop/themes/learn
-        - find . -name "*.java.*" -exec rename -v 's/\.java$/\/i' {} \;
+        - find . -name '*.java.en.md' -exec sh -c 'mv "$0" "${0%.java.en.md}.en.md"' {} \;
         - hugo --source workshop --destination ../public --quiet
   artifacts:
     baseDirectory: /public

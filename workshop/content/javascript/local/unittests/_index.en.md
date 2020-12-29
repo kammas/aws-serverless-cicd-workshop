@@ -9,6 +9,7 @@ As you typically would, with any software project, running the unit tests locall
 In the terminal, run this command from the `sam-app/hello-world` folder to run the unit tests:
 
 ```
+npm install -g mocha
 cd ~/environment/sam-app/hello-world
 npm run test
 ```

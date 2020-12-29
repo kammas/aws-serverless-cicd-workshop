@@ -1,5 +1,5 @@
 +++
-title = "Javascript/Node.js Workshop"
+title = "CI/CD for NodeJS Serverless Applications"
 chapter = true
 weight = 1
 +++
